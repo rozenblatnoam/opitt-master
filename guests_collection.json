@@ -1,0 +1,7 @@
+[
+    {"_id":{"$oid":"61b624595b5949ddc3e46b50"},"platNumber":"8745633","entryDateTime":1.63932702654E+12,"ExitDateTime":1.63942902654E+12,"propertyId":{"$oid":"61b3505d5b5949ddc3e46b02"}},
+    {"_id":{"$oid":"61b6258d5b5949ddc3e46b51"},"platNumber":"9983722","entryDateTime":163933712340,"ExitDateTime":163934812340,"propertyId":{"$oid":"61b3505d5b5949ddc3e46b02"}},
+    {"_id":{"$oid":"61b625905b5949ddc3e46b52"},"platNumber":"8729866","entryDateTime":1639367026540,"ExitDateTime":1639427026540,"propertyId":{"$oid":"61b3505d5b5949ddc3e46b02"}},
+    {"_id":{"$oid":"61b625925b5949ddc3e46b53"},"platNumber":"6382763","entryDateTime":1639327026540,"ExitDateTime":1.63942902654E+12,"propertyId":{"$oid":"61b3505d5b5949ddc3e46b02"}},
+    {"_id":{"$oid":"61b625945b5949ddc3e46b54"},"platNumber":"7392248","entryDateTime":1639327026540,"ExitDateTime":1.63942902654E+12,"propertyId":{"$oid":"61b3505d5b5949ddc3e46b02"}}
+]

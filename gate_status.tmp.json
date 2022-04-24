@@ -1,0 +1,20 @@
+{
+    "electricity": "",
+    "engine": "",
+    "communication": "",
+    "battery": "",
+    "lpr-in": "",
+    "lpr-out": "",
+    "poll-camera": "",
+    "viewfinder": "",
+    "boundary-breaker-opening": "",
+    "boundary-breaker-closing": "",
+    "road-detector": "",
+    "timer": "",
+    "dry-touch": [],
+    "gate-disabling ": "",
+    "restart": "",
+    "system test": "",
+
+    "on and of for all of the components": ""
+}

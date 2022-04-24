@@ -1,0 +1,7 @@
+[
+    {"_id":{"$oid":"61b620c65b5949ddc3e46b45"},"propertyId":{"$oid":"61b3505d5b5949ddc3e46b02"},"platNumber":"12345656"},
+    {"_id":{"$oid":"61b621375b5949ddc3e46b4a"},"propertyId":{"$oid":"61b3505d5b5949ddc3e46b02"},"platNumber":"12352312"},
+    {"_id":{"$oid":"61b621395b5949ddc3e46b4b"},"propertyId":{"$oid":"61b3505d5b5949ddc3e46b02"},"platNumber":"AD14313"},
+    {"_id":{"$oid":"61b6213b5b5949ddc3e46b4c"},"propertyId":{"$oid":"61b3505d5b5949ddc3e46b02"},"platNumber":"AD149693"},
+    {"_id":{"$oid":"61b6213d5b5949ddc3e46b4d"},"propertyId":{"$oid":"61b3505d5b5949ddc3e46b02"},"platNumber":"58394822"}
+]
