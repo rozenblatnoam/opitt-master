@@ -1,6 +1,6 @@
 {
     "db": {
-        "url": "mongodb+srv://oppiteDev:admin@cluster0.1feat.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+       "url": "mongodb+srv://admin:admin@opit.fybis.mongodb.net/opit?retryWrites=true&w=majority"
     },
     "encryption": {
         "secret": "some fake secret"
