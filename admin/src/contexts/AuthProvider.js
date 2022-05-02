@@ -16,7 +16,7 @@ const AuthProvider = ({children}) => {
         isAuth: isAuth.isAuth,
         wrongPassword: wrongPassword,
         login: async (dataObj) => {
-            const loginResult = await axios.post('http://localhost:3001/admin/login', dataObj)
+            const loginResult = await axios.post('https://opit2.herokuapp.com/admin/login', dataObj)
             const isAuthServer = loginResult.data.isAuth
             if (isAuthServer) {
                 const {cookie} = loginResult.data
@@ -26,14 +26,14 @@ const AuthProvider = ({children}) => {
             setIsAuth({isAuth: isAuthServer})
         },
         logout: () => {
-            axios.post('http://localhost:3001/admin/logout')
+            axios.post('https://opit2.herokuapp.com/admin/logout')
             removeCookie('adminToken', {path:'/'})
             setIsAuth({isAuth: false})
         }
     }
 
     useEffect( async () => {
-        const result = await axios.get('http://localhost:3001/admin/checkAuth', { withCredentials: true })
+        const result = await axios.get('https://opit2.herokuapp.com/admin/checkAuth', { withCredentials: true })
         console.log('result', result)
         console.log('checkAuth', isAuth)
         setIsAuth(result.data)
