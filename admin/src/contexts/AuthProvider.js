@@ -16,6 +16,7 @@ const AuthProvider = ({children}) => {
         isAuth: isAuth.isAuth,
         wrongPassword: wrongPassword,
         login: async (dataObj) => {
+         
             const loginResult = await axios.post('https://opit2.herokuapp.com/admin/login', dataObj)
             const isAuthServer = loginResult.data.isAuth
             if (isAuthServer) {
@@ -33,7 +34,8 @@ const AuthProvider = ({children}) => {
     }
 
     useEffect( async () => {
-        const result = await axios.get('https://opit2.herokuapp.com/admin/checkAuth', { withCredentials: true })
+        
+        const result = await axios.get('https://opit2.herokuapp.com/admin/checkAuth'/*, { withCredentials: true }*/)
         console.log('result', result)
         console.log('checkAuth', isAuth)
         setIsAuth(result.data)
