@@ -5,7 +5,6 @@ const ObjectId = require('mongodb').ObjectID;
 
 router.get('/guests', async function(req, res, next) {
   try {
- 
     userId = req.userId
     const user = await User.findOne({_id: ObjectId(userId)})
     const allGuests = user.guests
